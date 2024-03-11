@@ -14,8 +14,6 @@ public class User {
 	private String pincode;
 
 	public User() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public int getId() {

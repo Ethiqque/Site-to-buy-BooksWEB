@@ -11,8 +11,6 @@ public class Feedback {
 	private String comment;
 
 	public Feedback() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Feedback(int bookId, int userId, String comment) {

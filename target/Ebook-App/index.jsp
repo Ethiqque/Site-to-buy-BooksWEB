@@ -17,11 +17,12 @@
 <style type="text/css">
 .back-img {
 	background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)),
-		url("img/b.jpg");
-	height: 50vh;
-	width: 100%;
+		url("img/Uus_Ants_2800x640.jpg");
+	height: 310px;
+	width: 1400px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	border-radius: 20px;
 }
 
 .crd-ho:hover {
@@ -41,14 +42,12 @@
 	User u = (User) session.getAttribute("userobj");
 	%>
 
-	<%
-	out.print(DBConnect.getConn());
-	%>
+<%--	<%--%>
+<%--	out.print(DBConnect.getConn());--%>
+<%--	%>--%>
 
 	<%@include file="all_component/navbar.jsp"%>
-	<div class="container-fluid back-img">
-		<h2 class="text-center text-success">EBook Management System</h2>
-	</div>
+	<div class="container-fluid back-img"></div>
 
 
 	<!-- Start Recent Book -->

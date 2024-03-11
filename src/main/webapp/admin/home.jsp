@@ -13,12 +13,12 @@
 <style type="text/css">
 a {
 	text-decoration: none;
-	color: black;
+	color: #000000;
 }
 
 a:hover {
 	text-decoration: none;
-	color: black;
+	color: #000000;
 }
 </style>
 

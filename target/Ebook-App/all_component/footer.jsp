@@ -1,5 +1,9 @@
 <div class="conatiner-fluid text-center text-white p-3 mt-2"
-	style="background-color: #303f9f;">
-	<h5>Design and Devloped by ebook.com</h5>
+	style="background-color: #000000;">
+	<h5>Design and Devloped by ethiqque</h5>
 
 </div>
+
+
+
+

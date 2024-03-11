@@ -13,12 +13,12 @@
 <style type="text/css">
 a {
 	text-decoration: none;
-	color: black;
+	color: #000000;
 }
 
 a:hover {
 	text-decoration: none;
-	color: black;
+	color: #000000;
 }
 </style>
 
@@ -77,29 +77,7 @@ a:hover {
 			</div>
 
 
-			<div class="col-md-4 mt-3">
-				<a href="orders.jsp">
-					<div class="card">
-						<div class="card-body text-center">
-							<i class="fas fa-box-open fa-3x text-warning"></i><br>
-							<h4>Orders</h4>
-							-----------
-						</div>
-					</div>
-				</a>
-			</div>
 
-			<div class="col-md-4 mt-3">
-				<a href="feedback.jsp">
-					<div class="card">
-						<div class="card-body text-center">
-							<i class="fas fa-book-open fa-3x text-danger"></i></i><br>
-							<h4>Review</h4>
-							-----------
-						</div>
-					</div>
-				</a>
-			</div>
 
 			<div class="col-md-4 mt-3">
 				<a data-toggle="modal" data-target="#exampleModalCenter">

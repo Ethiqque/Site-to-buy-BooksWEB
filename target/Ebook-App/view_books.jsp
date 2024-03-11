@@ -114,14 +114,22 @@
 					if (u == null) {
 					%>
 					<a href="login.jsp" class="btn btn-primary btn-sm ml-2 col-md-12"><i
-						class="fas fa-cart-plus"></i> Add Cart</a>
+						class="fas fa-cart-plus"></i> view</a>
+						
+						<a href="login.jsp" class="btn btn-primary btn-sm ml-2 col-md-12"><i
+						class="fas fa-cart-plus"></i> Download</a>
 					<%
 					} else {
 					%>
 					<a
 						href="cart?bid=<%=b.getBookId()%>&&uid=<%=u.getId()%>&&ca=<%=b.getBookCategory()%>"
 						class="btn btn-primary btn-sm ml-2 col-md-12"><i
-						class="fas fa-cart-plus"></i> Add Cart</a>
+						class="fas fa-cart-plus"></i> view</a>
+						
+						<a
+						href="cart?bid=<%=b.getBookId()%>&&uid=<%=u.getId()%>&&ca=<%=b.getBookCategory()%>"
+						class="btn btn-primary btn-sm ml-2 col-md-12"><i
+						class="fas fa-cart-plus"></i> Download</a>
 					<%
 					}
 					%>

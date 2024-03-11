@@ -5,8 +5,6 @@ public class Category {
 	private String categoryName;
 
 	public Category() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Category(int id, String categoryName) {
